@@ -31,7 +31,7 @@ If I execute the expression x <- 4L in R, what is the class of the object x as d
 ### Answer
 Integer
 
-Question 5 ( ### 2 Questions )
+Question 5 ( 2 Questions )
 ----------
 What is the class of the object defined by x <- c(4, TRUE)?
 ### Answer
