@@ -31,11 +31,15 @@ If I execute the expression x <- 4L in R, what is the class of the object x as d
 ### Answer
 Integer
 
-Question 5
+Question 5 ( ### 2 Questions )
 ----------
 What is the class of the object defined by x <- c(4, TRUE)?
 ### Answer
 Numeric
+
+What is the class of the object defined by x <- c(4, "a", TRUE)?
+### Answer
+Character
 
 Question 6
 ----------
@@ -49,18 +53,27 @@ A key property of vectors in R is that
 ### Answer
 Elements of a vector all must be of the same class
 
-Question 8
+Question 8 ( ### 2 Questions )
 ----------
 Suppose I have a list defined as x <- list(2, "a", "b", TRUE). What does x[[2]] give me? Select all that apply.
 ### Answer
 A character vector containing the letter "a".</br>
 A character vector of length 1.
 
-Question 9
+Suppose I have a list defined as x <- list(2, "a", "b", TRUE). What does x[[1]] give me? Select all that apply.
+### Answer
+A numeric vector containing the element 2.</br>
+A numeric vector of length 1.
+
+Question 9 ( ### 2 Questions )
 ----------
 Suppose I have a vector x <- 1:4 and a vector y <- 2. What is produced by the expression x + y?
 ### Answer
 A numeric vector with elements 3, 4, 5, 6.
+
+Suppose I have a vector x <- 1:4 and a vector y <- 2:3. What is produced by the expression x + y?
+### Answer
+A integer vector with elements 3, 5, 5, 7.
 
 Question 10
 ----------
@@ -147,7 +160,6 @@ How many missing values are in the Ozone column of this data frame?
 37
 
 ```R
-# Going back to data.frame because dont it hasnt been taught yet in this specialization
 data = read.csv('hw1_data.csv')
 sub = subset(data, is.na(Ozone))
 nrow(sub)
