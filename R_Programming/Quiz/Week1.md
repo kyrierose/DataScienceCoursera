@@ -53,7 +53,7 @@ A key property of vectors in R is that
 ### Answer
 Elements of a vector all must be of the same class
 
-Question 8 ( ### 2 Questions )
+Question 8 ( 2 Questions )
 ----------
 Suppose I have a list defined as x <- list(2, "a", "b", TRUE). What does x[[2]] give me? Select all that apply.
 ### Answer
@@ -65,7 +65,7 @@ Suppose I have a list defined as x <- list(2, "a", "b", TRUE). What does x[[1]] 
 A numeric vector containing the element 2.</br>
 A numeric vector of length 1.
 
-Question 9 ( ### 2 Questions )
+Question 9 ( 2 Questions )
 ----------
 Suppose I have a vector x <- 1:4 and a vector y <- 2. What is produced by the expression x + y?
 ### Answer
