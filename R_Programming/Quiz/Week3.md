@@ -38,8 +38,11 @@ There will be an object names 'mtcars' in your workspace. You can find some info
 ```
 How can one calculate the average miles per gallon (mpg) by number of cylinders in the car (cyl)? Select all that apply.
 ### Answer
+
 tapply(mtcars$mpg, mtcars$cyl, mean)
+
 with(mtcars, tapply(mpg, cyl, mean))
+
 sapply(split(mtcars$mpg, mtcars$cyl), mean)
 
 Question 4
